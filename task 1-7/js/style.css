@@ -1,0 +1,14 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.top{
+	width: 100%;
+	height: 55px;
+	border:1px solid red;
+}
+
+.top_right, .top_left {
+	width: 50%;
+	height: 55px;
+}
