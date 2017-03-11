@@ -1,0 +1,56 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul {
+                margin: 0;
+                padding: 0;
+            }
+a {
+                text-decoration: none
+            }
+ol,ul {
+                list-style: none
+            }
+#gridPanel{
+  width: 310px;
+  height: 310px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  background-color: #DDD;
+  
+  position: relative;
+}
+.grid{
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  float: left;
+}
+#box{
+  width: 60px;
+  height: 40px;
+  border-top: 20px solid #00F;
+  background-color: #ee3e23;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(0deg);
+}
+#action{
+  width: 300px;
+  height: 30px;
+  margin: 50px 500px 20px;
+}
+input{
+  
+  border-radius: 2px;
+  width: 200px;
+  height: 30px;
+}
+button{
+  border: 0;
+  cursor: pointer;
+  width: 55px;
+  height: 35px;
+  margin-left: 20px;
+}
+.text{
+   text-align: center;
+}
